@@ -1,0 +1,60 @@
+$fontAsap: 'Asap', sans-serif;
+
+body {
+ 
+  font-family: $fontAsap;
+
+  
+}
+h1{
+  color: white;
+  text-align:center;
+}
+
+.login {
+  overflow: hidden;
+  background-color: darkcyan;
+  padding: 40px 30px 30px 30px;
+  border-radius: 10px;
+  position: absolute;
+  top: 30%;
+  left:35%;
+  width: 400px;}
+  
+  
+ 
+  
+input{
+    font-family: $fontAsap;
+    display: block;
+    border-radius: 5px;
+    font-size: 16px;
+    background: white;
+    width: 100%;
+    border: 0;
+  padding: 10px 10px;
+    margin: 15px -10px;}
+  
+  
+   
+button{
+    font-family: $fontAsap;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 80px;
+    border: 0;
+    padding: 10px 0;
+    margin-top: 10px;
+    margin-left: -5px;
+    border-radius: 5px;
+    background-color: royalblue;}
+   
+a {
+  text-decoration: none;
+  color: rgba(white, 0.6);
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 12px;}
